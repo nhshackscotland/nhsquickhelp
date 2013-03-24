@@ -32,7 +32,18 @@
 	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-
+    <script>
+    function success(position) {
+    "http://uk-postcodes.com/latlng/", position.coords.latitude,",", position.coords.longitude,'.
+    }
+    function error(msg) {
+    }
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(success, error);
+    } else {
+        error('not supported');
+    }
+    </script>
 </head>
 <body>
 
@@ -60,33 +71,67 @@
 		-->
 		
 		<div class="one-third column">
-			<h3>Local services</h3>
+			<h3>Local Services</h3>
 			<p>Local health care & support is available from:</p>
 			<ul class="square">
 				<li><strong>GP</strong>: For your general health issues</li>
 				<li><strong>Pharmacy</strong>: If you are suffering from a minor ailment or illness </li>
-				<li><strong>Minor Injuries</strong> Non life thretening accidents and injuries</li>
-				<li><strong>NHS Inform</strong>: For general information on heathcare in scotland</li>
+				<li><strong>Minor Injuries</strong> Non life threatening accidents and injuries</li>
+				<li><strong>NHS Inform</strong>: For general information on heath care in Scotland</li>
 				<li><strong>NHS 24</strong>: If you want to speak to a health professional <br/>
-				<a href="tel:08454242424" class="button">DIAL 08454 242424</a>
+				<a href="tel:08454242424" class="button">08454 242424</a>
 			    <li><strong class="red">A&E</strong>: For life threatening conditions</li>
 				</li>
 			</ul>
 		</div>
 		<div class="one-third column">
-			<h3>A&E</h3>
-			<p>For Emergencies only</p>
+			<h3>GP</h3>
+			<p>
+			If you have an illness or injury that won't go away that isn't life
+			threatening, contact your GP surgery first if possible to make an
+			appointment.
+			Core opening hours are Monday - Friday 8.00am - 6.00pm.
+			Many GPs now offer extended opening hours including at evenings and
+			weekends. Please contact your practice for details.
+			</p>
 			<ul class="square">
-				<li><strong>Call 999</strong>: In the case of a life threatening
-				                                condition you should call 999<br/>
-				    <a href="#" class="button">DIAL 999</a>
-				    </li>
-				<li><strong>Go to Sick Kids</strong>: A&E for under 13 years of age.<br/>
-				    <a href="#" class="button">Map EH9 1LF</a>
-				    </li>
-				<li><strong>Go to A&E (Adults)</strong>: Age 13 and over<br/>
-				    <a href="#" class="button">Map EH16 4SU</a>
-				    </li>
+				<li><a href="http://www.nhs24.com/FindLocal" class="button">Find your local GP practices</a></li>
+			</ul>
+		</div>
+        <div class="one-third column">
+			<h3>Pharmacy</h3>
+			<p>
+			The pharmacy is an accessible health resource for you and your
+			    family.
+			Everyone can get advice from a pharmacist and buy medicine for a
+			minor ailment or illness.
+            </p>
+            <p>Many pharmacies are open when your GP surgery is shut
+            (evenings, weekends and on public holidays).
+            You don't even need to make an appointment to speak to a pharmacist. 
+			</p>
+			<ul class="square">
+				<li><a href="http://www.nhs24.com/FindLocal" class="button">Find your local pharmacies</a></li>
+			</ul>
+		</div>
+		<div class="one-third column">
+			<h3>The Minor Injuries Clinic</h3>
+			<h5>Open seven days a week 8am-9pm</h5>
+			<ul class="square">
+			<li><strong>Phone</strong>:  <a href="tel:01315371330" class="button">0131 537 1330</a></li>
+			<li><strong>Directions</strong>: <a href="http://www.openstreetmap.org/?mlat=55.962&mlon=-3.234&zoom=13&layers=M" class="button"> Map EH4 2XU</a></li>
+            </ul>
+			<p>Treatment for a wide range of injuries:
+			</p>
+			<ul class="square">
+				<li>cuts and burns</li>
+				<li>infections</li>
+				<li>sprains and stings</li>
+				<li>small fractures</li>
+				<li>X-Rays for patients 12 years and over</li>
+				<li>tetanus vaccinations - antibiotics</li>
+				<li>physiotherapy referral</li>
+                <li>advice and health promotion</li>
 			</ul>
 		</div>
 		<div class="one-third column">
@@ -130,39 +175,31 @@
 			</ul>
 		</div>
         <div class="one-third column">
-			<h3>The Minor Injuries Clinic</h3>
-			<h5>Open seven days a week 8am-9pm</h5>
-			<ul class="square">
-			<li><strong>Phone</strong>:  <a href="tel:01315371330" class="button">0131 537 1330</a></li>
-			<li><strong>Directions</strong>: <a href="#" class="button"> Map EH4 2XU</a></li>
-            </ul>
-			<p>Treatment for a wide range of injuries:
-			</p>
-			<ul class="square">
-				<li>cuts and burns</li>
-				<li>infections</li>
-				<li>sprains and stings</li>
-				<li>small fractures</li>
-				<li>X-Rays for patients 12 years and over</li>
-				<li>tetanus vaccinations - antibiotics</li>
-				<li>physiotherapy referral</li>
-                <li>advice and health promotion</li>
-			</ul>
-		</div>
-        <div class="one-third column">
-			<h3>Pharmacy</h3>
+			<h3>A&E</h3>
+			<h5>For Emergencies only</h5>
 			<p>
-			The pharmacy is an accessible health resource for you and your
-			    family.
-			Everyone can get advice from a pharmacist and buy medicine for a
-			minor ailment or illness.
-            </p>
-            <p>Many pharmacies are open when your GP surgery is shut
-            (evenings, weekends and on public holidays).
-            You don't even need to make an appointment to speak to a pharmacist. 
+			These services should only be used in an emergency, a critical or
+			life-threatening situation. Play your part by considering one of the
+			other services where possible to allow staff to concentrate on
+			treating patients who are seriously ill or injured.
+			</p>
+            <p>
+            999 is the telephone number for emergency medical assistance
+            following a serious accident, illness or injury - for example in
+            the event of traumatic blood loss, chest pain or loss of
+            consciousness.
 			</p>
 			<ul class="square">
-				<li><a href="#" class="button">Find your nearest</a></li>
+				<li><strong>Call 999</strong>: In the case of a life threatening
+				                                condition you should call 999<br/>
+				    <a href="#" class="button">DIAL 999</a>
+				    </li>
+				<li><strong>Go to Sick Kids</strong>: A&E for under 13 years of age.<br/>
+				    <a href="http://www.openstreetmap.org/?mlat=55.9385&mlon=-3.1895&zoom=15&layers=M" class="button">Map EH9 1LF</a>
+				    </li>
+				<li><strong>Go to A&E (Adults)</strong>: Age 13 and over<br/>
+				    <a href="http://www.openstreetmap.org/?mlat=55.920660469103&mlon=-3.1365880961348&zoom=15&layers=M" class="button">Map EH16 4SU</a>
+				    </li>
 			</ul>
 		</div>
 
