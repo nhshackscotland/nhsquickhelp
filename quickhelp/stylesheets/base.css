@@ -57,7 +57,9 @@
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
  }
-
+    :target {
+        background-color: #ffa;
+    }
 
 /* #Typography
 ================================================== */

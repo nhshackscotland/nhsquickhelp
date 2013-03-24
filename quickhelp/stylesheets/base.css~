@@ -80,7 +80,7 @@
 
 	em { font-style: italic; }
 	strong { font-weight: bold; color: #333; }
-	.red { color: #700; }
+	.red { color: #F00; }
 	small { font-size: 80%; }
 
 /*	Blockquotes  */
