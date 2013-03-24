@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Quick Help - your Edinburgh link to health care and support</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+</head>
+<body>
+
+
+
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<!-- Delete everything in this .container and get started on your own site! -->
+
+	<div class="container">
+		<div class="sixteen columns">
+			<h1 class="remove-bottom" style="margin-top: 40px">Quick Help</h1>
+			<h5>your Edinburgh link to health care and support</h5>
+			<hr />
+		</div>
+		<!--
+		<div class="one-third column">
+			<h3>Is it an Emergency</h3>
+			<p>Is it life threataning?</p>
+			<a href="#" class="button"> Yes </a>
+			<a href="#" class="button"> No </a>
+			<a href="#" class="button"> Dont know </a>
+		</div>
+		-->
+		
+		<div class="one-third column">
+			<h3>Local services</h3>
+			<p>Local health care & support is available from:</p>
+			<ul class="square">
+				<li><strong>GP</strong>: For your general health issues</li>
+				<li><strong>Pharmacy</strong>: If you are suffering from a minor ailment or illness </li>
+				<li><strong>Minor Injuries</strong> Non life thretening accidents and injuries</li>
+				<li><strong>NHS Inform</strong>: For general information on heathcare in scotland</li>
+				<li><strong>NHS 24</strong>: If you want to speak to a health professional <br/>
+				<a href="tel:08454242424" class="button">DIAL 08454 242424</a>
+			    <li><strong class="red">A&E</strong>: For life threatening conditions</li>
+				</li>
+			</ul>
+		</div>
+		<div class="one-third column">
+			<h3>A&E</h3>
+			<p>For Emergencies only</p>
+			<ul class="square">
+				<li><strong>Call 999</strong>: In the case of a life threatening
+				                                condition you should call 999<br/>
+				    <a href="#" class="button">DIAL 999</a>
+				    </li>
+				<li><strong>Go to Sick Kids</strong>: A&E for under 13 years of age.<br/>
+				    <a href="#" class="button">Map EH9 1LF</a>
+				    </li>
+				<li><strong>Go to A&E (Adults)</strong>: Age 13 and over<br/>
+				    <a href="#" class="button">Map EH16 4SU</a>
+				    </li>
+			</ul>
+		</div>
+		<div class="one-third column">
+			<h3>NHS 24</h3>
+			<p>
+			    If you’re ill when your doctor’s surgery is closed and you feel
+			    it can’t wait until it re-opens, call NHS 24 on 08454 24 24 24.
+			</p>
+			<p>
+			    Calls to NHS 24 should cost no more than the price of a local
+			    telephone call from a BT landline.
+			    Calls from mobiles and other networks may vary.
+			</p>
+			<li><strong>Phone</strong>: <a href="tel:08454242424" class="button">
+				        08454 242424</a></li>
+		    <li><strong>Website</strong>: <a href=http://www.nhs24.com >
+		                                    www.nhs24.com</a></li>
+		</div>
+		<div class="one-third column">
+			<h3>NHS inform</h3>
+			<h5>Health Information you can trust</h5>
+			<p>NHS inform Helpline can give you information about illnesses and
+			    conditions, treatments, NHS services and other support services.
+			    (8am to 10pm, 7 days).
+			</p>
+			<ul class="square">
+			<li><strong>Phone</strong>: <a href="tel:0800224488" class="button">
+			    0800 22 44 88</a></li>
+            <li><strong>Website</strong>: <a href=http://nhsinform.co.uk >
+                                            nhsinform.co.uk</a></li>
+            </ul>
+			<p>All phone calls to NHS inform are private and confidential
+			</p>
+			<p>Help and advice from a range of health professionals such as:
+			</p>
+			<ul class="square">
+				<li>a nurse</li>
+				<li>a pharmacy advisor</li>
+				<li>a dental nurse</li>
+				<li>a health information advisor</li>
+			</ul>
+		</div>
+        <div class="one-third column">
+			<h3>The Minor Injuries Clinic</h3>
+			<h5>Open seven days a week 8am-9pm</h5>
+			<ul class="square">
+			<li><strong>Phone</strong>:  <a href="tel:01315371330" class="button">0131 537 1330</a></li>
+			<li><strong>Directions</strong>: <a href="#" class="button"> Map EH4 2XU</a></li>
+            </ul>
+			<p>Treatment for a wide range of injuries:
+			</p>
+			<ul class="square">
+				<li>cuts and burns</li>
+				<li>infections</li>
+				<li>sprains and stings</li>
+				<li>small fractures</li>
+				<li>X-Rays for patients 12 years and over</li>
+				<li>tetanus vaccinations - antibiotics</li>
+				<li>physiotherapy referral</li>
+                <li>advice and health promotion</li>
+			</ul>
+		</div>
+        <div class="one-third column">
+			<h3>Pharmacy</h3>
+			<p>
+			The pharmacy is an accessible health resource for you and your
+			    family.
+			Everyone can get advice from a pharmacist and buy medicine for a
+			minor ailment or illness.
+            </p>
+            <p>Many pharmacies are open when your GP surgery is shut
+            (evenings, weekends and on public holidays).
+            You don't even need to make an appointment to speak to a pharmacist. 
+			</p>
+			<ul class="square">
+				<li><a href="#" class="button">Find your nearest</a></li>
+			</ul>
+		</div>
+
+	</div><!-- container -->
+
+
+<!-- End Document
+================================================== -->
+</body>
+</html>
